@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .item1{
+    background:rgb(0, 255, 128);
+    flex-basis:200px !important;
+    
+ }
+ .item2{
+    background:rgb(255, 0, 157)
+ }
+ .item3{
+    background:orange
+ }
+ .item4{
+    background:rgb(255, 0, 55)
+ }
+ .item5{
+    background:rgb(0, 255, 76)
+ }
+.items{
+    flex-grow : 1;
+    height:60px;
+    font-size: 30px;
+    flex-basis: 100px;
+}
+ .container{
+    display:flex;
+   flex-wrap: wrap;
+    border:2px solid black;
+    margin:10rem auto;
+ }
+    img{
+        clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
+        border:2px solid red;
+    }
+    </style>
+</head>
+<body>
+    
+     <img src="images/road.jpg">
+</body>
+</html>
+
